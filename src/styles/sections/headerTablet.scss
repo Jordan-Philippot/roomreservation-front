@@ -1,0 +1,66 @@
+#headerTablet {
+    z-index: 2;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+
+    * {
+        font-family: $font-family-bebas-neue;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    nav {
+        background-color: white;
+        padding: 1.5vh 10vw;
+        overflow-x: hidden;
+
+        .navbar-brand {
+            img {
+                width: 60px;
+                height: 58px;
+            }
+        }
+
+        .navbar-toggler{
+            border: none !important;
+            color: transparent !important;
+            box-sizing: unset;
+          
+            .navbar-toggler-icon{
+                color: black !important;
+
+            }
+        }
+        .navbar-nav {
+            padding-bottom: 10px;
+            // li
+            .nav-item {
+                font-weight: bold;
+                margin: unset;
+                color: $black;
+                font-size: 18px;
+                padding: 15px 0;
+                text-transform: uppercase;
+                cursor: pointer;
+
+                a,
+                p {
+                    margin: unset;
+                    color: $black;
+                }
+            }
+           
+        }
+
+        // Hr div
+        .dropdown-divider {
+            width: 80vw;
+            margin: 20px 0;
+            background-color: rgb(160, 160, 160);
+            height: 1px;
+        }
+    }
+}
